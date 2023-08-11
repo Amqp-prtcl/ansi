@@ -53,6 +53,7 @@ func GetCursorPos() {
 
 	// TODO
 	// set ICANON and ECHO lflags to false
+	// maybe set cc[VMIN]
 	// ask and parse input
 	// return to previous state
 }
