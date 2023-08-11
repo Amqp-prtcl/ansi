@@ -43,3 +43,11 @@ func CursorHorizontalAbsolute(n int) {
 func CursorPosition(n int, m int) {
 	write(CSI + itoa(n) + ";" + itoa(n) + "H")
 }
+
+// Reports the cursor position (CPR) by transmitting
+// ESC[n;mR, where n is the row and m is the column.
+//
+// os.Stdin must be empty
+func GetCursorPos() {
+	panic("not implemented yet (waiting for the termois lib)")
+}
