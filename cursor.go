@@ -50,4 +50,9 @@ func CursorPosition(n int, m int) {
 // os.Stdin must be empty
 func GetCursorPos() {
 	panic("not implemented yet (waiting for the termois lib)")
+
+	// TODO
+	// set ICANON and ECHO lflags to false
+	// ask and parse input
+	// return to previous state
 }
